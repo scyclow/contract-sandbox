@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "hardhat test",
-    "deploy": "hardhat run --network localhost scripts/deploy.js"
+    "deploy": "hardhat run --network localhost scripts/deploy.js",
+    "network": "npx hardhat node"
   },
   "author": "",
   "license": "ISC",
